@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Help some People deal with Stress!</title>
+        <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src = "https://www.gstatic.com/firebasejs/9.0.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-app.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-database.js"></script>
+        
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="councellorpage.js"></script>
+    </head>
+    <center>
+    <body id="councellorpagebody">
+        <h13>Hey Counselors!</h13>
+        <br>
+        <br>
+        <h14>Many People need your Help!</h14>
+        <br>
+        <br>
+        <img id="councellorpic" src="maxresdefault.jpg">
+        <br>
+        <br>
+        <br>
+        <br>
+        <h15>Add your details below!</h15>
+        <br><br><br>
+        <div class="form-group">
+            <div id="details">
+            <label class="councellordetaillabel">Name:</label>
+            <input class="councellordetailinput" type="text" id="name" class="form-control" placeholder="Name">
+            <br><br><br>
+            <label class="councellordetaillabel">Age:</label>
+            <input class="councellordetailinput" type="text" id="age" class="form-control" placeholder="Age">
+            <br><br><br>
+            <label class="councellordetaillabel">Experience:</label>
+            <input class="councellordetailinput" type="text" id="experience" class="form-control" placeholder="Experience">
+            <br><br><br>
+            <label class="councellordetaillabel">Phone Number:</label>
+            <input class="councellordetailinput" type="text" id="phone_number" class="form-control" placeholder="Phone Number">
+            <br><br><br>
+            <label class="councellordetaillabel">Email ID:</label>
+            <input class="councellordetailinput" type="text" id="email_id" class="form-control" placeholder="Email ID">
+            <br><br><br>
+          </div></div>
+          <br><br><br>
+          <button id="submitcouncellordetails" onclick="submit()">SUBMIT</button>
+          <br>
+            <br>
+            <button onclick ="go_back()" class="goback">GO TO THE BACK FIRST PAGE</button>
+    </body>
+</center>
+</html>

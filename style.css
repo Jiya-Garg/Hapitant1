@@ -1,0 +1,238 @@
+#stayfitbothways {
+    height: 400px;
+}
+body {
+    background-color: darksalmon;
+}
+h1 {
+    color:#012840;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 60px;
+}
+h2 {
+    color:#360259 ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+h3 {
+    color: #1F8A70;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+h4 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: teal;
+    font-size: 57px;
+}
+#councellor_option, #user_option {
+    background-color:black;
+    color: white;
+    font-size: 70px;
+}
+#or {
+    font-size: 35px;
+}
+#user_tips, #user_councellor, #user_music, #user_hit_least_favorite_person {
+    background-color:#ef5350;
+    color:#450003;
+    border-radius: 20px;
+    font-size: 45px;
+}
+#userscreen {
+    background-color:teal;
+}
+h5 {
+    font-size: 55px;
+    color: #94090D;
+}
+h6 {
+    font-size: 50px;
+    color: #FA5B0F;
+}
+#no_stress, #meditate {
+    height: 300px;
+}
+.goback {
+    font-size: 35px;
+}
+#usertipsscreen {
+    background-color:lightpink;
+}
+.headingforusers {
+    color: #012840;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+}
+.backgroundforuseroptions {
+    
+}
+#councellorpagebody {
+    background-color: wheat;
+}
+h14 {
+    font-size: 40px;
+    color: #360259;
+    font-weight: bold;
+}
+h13 {
+    font-size: 40px;
+    color: #450003;
+    font-weight: bold;
+}
+#councellorpic {
+    weight: 20px;
+}
+h15, h16 {
+    font-size: 30px;
+    color: #012840;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.councellordetaillabel {
+    font-size: 28px;
+}
+.councellordetailinput {
+    font-size: 20px;
+}
+#submitcouncellordetails {
+    background-color: black;
+    color: white;
+    font-size: 40px;
+}
+h17 {
+    font-size: 90px;
+    color: darkslategrey;
+}
+#thumbsup {
+    height: 400px;
+}
+#tipspic {
+    height: 500px;
+}
+.tipslabel {
+    color: darkblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.infop {
+    color: purple;
+    font-size: 30px;
+}
+#musicnotes {
+    height: 400px;
+    text-align: center;
+}
+#music {
+    background-color: turquoise;
+}
+.musicpics {
+    width: 400px;
+}
+.musictypes {
+    color: #012840;
+    font-weight: bold;
+    font-size: 40px;
+}
+h19 {
+    color:rebeccapurple;
+    font-weight: bold;
+    font-size: 60px;
+}
+h20 {
+    color: darkblue;
+    font-weight: bold;
+    font-size: 50px;
+}
+#hitscreen {
+    background-color:thistle;
+}
+#showpic {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    font-size:40px;
+}
+#fileToUpload {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    font-size:20px;
+}
+#shoot_button {
+    font-size: 80px;
+    background-color: aqua;
+    color: blueviolet;
+}
+h30 {
+    color:darkblue;
+    font-weight: bold;
+    font-family:'Times New Roman';
+    font-size: 90px;
+}
+#select {
+    color: darkcyan;
+    font-weight: bold;
+    font-size: 50px;
+}
+#information {
+    font-size: 40px;
+}
+#pic {
+    height: 500px;
+    position: absolute;
+    z-index: 10;
+    width: 350px;
+}
+#design1 {
+    padding-left: 5px;
+}
+h35 {
+    font-size:60px;
+    color: darkblue;
+    font-weight: bold;
+}
+#councellorpic {
+    height: 400px;
+    border: black;
+    border-radius: 100px;
+}
+h36 {
+    color: hsl(273, 30%, 23%);
+    font-weight: bold;
+    font-size: 40px;
+}
+#output
+{
+	padding: 10px; width:80%;
+    background-color: black;
+    border-radius: 15px;
+    color:white;
+    font-size: 30px;
+}
+#myCanvas
+{
+    border-width:10px;
+    border-style:ridge;
+	background-color:orange;
+}
+.ball {
+    height: 100px;
+}
+#shootedball {
+    visibility: hidden;
+}
+#stainpic {
+    visibility: hidden;
+    height: 300px;
+    position: absolute;
+    z-index: 15;
+}
+.parent {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+#spoilt {
+    visibility: hidden;
+    color: darkslategray;
+    font-size: 50px;
+    font-weight: bold;
+}
